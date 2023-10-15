@@ -1,0 +1,170 @@
+/* Reset some default styles for the <ul> element */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Float the list items to create a horizontal navigation menu */
+li {
+    float: left;
+}
+
+/* Style links in the navigation menu */
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change link background color on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/* Style the active link */
+.active {
+    background-color: #04AA6D;
+}
+
+/* Sticky navigation menu at the top */
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Cross-browser sticky positioning */
+ul {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+/* Styling for the banner */
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.centered {
+    display: block;
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    left: 0;
+    height: 36px;
+    line-height: 36px;
+    background: #000;
+    opacity: 0.5;
+}
+
+.avatar img {
+    width: 310px;
+    height: 310px;
+    display: block;
+    margin: 0 auto;
+}
+
+.avatar span {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+hr {
+    border: 1px solid #04AA6D;
+    width: 364px;
+    margin: 30pt auto;
+}
+.avatar p1 {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    color: #04AA6D;
+}
+.avatar p {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    color: #04AA6D;
+}
+.avatar h2 {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    color: #04AA6D;
+}
+
+
+/* Styling for project sections */
+
+
+.project {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.project  img{
+    height: auto; /* Adjust as needed */
+    width: 200px;
+}
+
+.project .txt1,
+.project .txt2 {
+    display: inline-block;
+    width: 30%;
+    margin-top: 60px;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+
+p {
+    color: navy;
+    text-indent: 30px;
+    text-transform: uppercase;
+  }
+
+.Myphotos p1
+
+{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    color: #04AA6D;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .center{
+  
+    margin-left: 200px;
+  }
